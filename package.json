@@ -1,0 +1,24 @@
+{
+  "name": "12-28-miniproject-movie-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerostokes/12-28-miniproject-movie-database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aerostokes/12-28-miniproject-movie-database/issues"
+  },
+  "homepage": "https://github.com/aerostokes/12-28-miniproject-movie-database#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.2.4"
+  }
+}
