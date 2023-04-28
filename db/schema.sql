@@ -11,5 +11,5 @@ CREATE TABLE reviews(
     id INT PRIMARY KEY AUTO_INCREMENT,
     movie_id INT,
     review TEXT NOT NULL,
-    FOREIGN KEY (movie_id) REFERENCES movies(id) ON DELETE SET NULL
+    FOREIGN KEY (movie_id) REFERENCES movies(id) ON DELETE CASCADE
 );
